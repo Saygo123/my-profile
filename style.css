@@ -1,0 +1,84 @@
+
+/* Colors and fonts */
+p{
+	colors: black;
+}
+body{
+	background-color: white;
+	color: white;
+	font-family: font-family: 'Modern Love Grunge', sans-serif;
+	font-size: 18px;
+}
+h1{
+	color: darkgoldenrod;
+	font-family: Century;
+	font-size: 25;
+}
+h2{
+	color: darkgoldenrod;
+	font-family: Avenir;
+	font-weight: lighter;
+	font-size: 22px;
+}
+
+a{
+	 text-decoration: none;
+	color: lightblue;
+	transition: 0.3 ease;
+}
+a:hover {
+	color: ghostwhite;
+}
+
+.card-black {
+	padding: 20px;
+	margin: 30px;
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+/* Custom design with class*/
+.container {
+	width: 750px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 600px) {
+		
+		.container{
+			width: 450px;
+		}
+}
+
+.reseaux{
+	width: 200px;
+}
+
+.img-circle{
+	width: 200px;
+	border-radius: 50%;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 15px ;
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+#introduction p{
+	margin-bottom: 25px;
+}
